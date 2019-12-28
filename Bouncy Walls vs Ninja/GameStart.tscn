@@ -1,0 +1,161 @@
+[gd_scene load_steps=61 format=2]
+
+[ext_resource path="res://GameStart.gd" type="Script" id=1]
+[ext_resource path="res://gamestart/startback/Frame0.png" type="Texture" id=2]
+[ext_resource path="res://gamestart/startback/Frame1.png" type="Texture" id=3]
+[ext_resource path="res://gamestart/startback/Frame2.png" type="Texture" id=4]
+[ext_resource path="res://gamestart/startback/Frame3.png" type="Texture" id=5]
+[ext_resource path="res://gamestart/startback/Frame4.png" type="Texture" id=6]
+[ext_resource path="res://gamestart/startback/Frame5.png" type="Texture" id=7]
+[ext_resource path="res://gamestart/startback/Frame6.png" type="Texture" id=8]
+[ext_resource path="res://gamestart/startback/Frame7.png" type="Texture" id=9]
+[ext_resource path="res://gamestart/startback/Frame8.png" type="Texture" id=10]
+[ext_resource path="res://gamestart/startback/Frame9.png" type="Texture" id=11]
+[ext_resource path="res://gamestart/startback/Frame10.png" type="Texture" id=12]
+[ext_resource path="res://gamestart/startback/Frame11.png" type="Texture" id=13]
+[ext_resource path="res://gamestart/startback/Frame12.png" type="Texture" id=14]
+[ext_resource path="res://gamestart/startback/Frame13.png" type="Texture" id=15]
+[ext_resource path="res://gamestart/startback/Frame14.png" type="Texture" id=16]
+[ext_resource path="res://gamestart/startback/Frame15.png" type="Texture" id=17]
+[ext_resource path="res://gamestart/startback/Frame16.png" type="Texture" id=18]
+[ext_resource path="res://gamestart/startback/Frame17.png" type="Texture" id=19]
+[ext_resource path="res://gamestart/startback/Frame18.png" type="Texture" id=20]
+[ext_resource path="res://gamestart/startback/Frame19.png" type="Texture" id=21]
+[ext_resource path="res://gamestart/startback/Frame20.png" type="Texture" id=22]
+[ext_resource path="res://gamestart/startback/Frame21.png" type="Texture" id=23]
+[ext_resource path="res://gamestart/startback/Frame22.png" type="Texture" id=24]
+[ext_resource path="res://gamestart/startback/Frame23.png" type="Texture" id=25]
+[ext_resource path="res://gamestart/startback/Frame24.png" type="Texture" id=26]
+[ext_resource path="res://gamestart/startback/Frame25.png" type="Texture" id=27]
+[ext_resource path="res://gamestart/startback/Frame26.png" type="Texture" id=28]
+[ext_resource path="res://gamestart/startback/Frame27.png" type="Texture" id=29]
+[ext_resource path="res://gamestart/startback/Frame28.png" type="Texture" id=30]
+[ext_resource path="res://gamestart/startback/Frame29.png" type="Texture" id=31]
+[ext_resource path="res://gamestart/startback/Frame30.png" type="Texture" id=32]
+[ext_resource path="res://gamestart/startback/Frame31.png" type="Texture" id=33]
+[ext_resource path="res://gamestart/startback/Frame32.png" type="Texture" id=34]
+[ext_resource path="res://gamestart/startback/Frame33.png" type="Texture" id=35]
+[ext_resource path="res://gamestart/startback/Frame34.png" type="Texture" id=36]
+[ext_resource path="res://gamestart/startback/Frame35.png" type="Texture" id=37]
+[ext_resource path="res://gamestart/startback/Frame36.png" type="Texture" id=38]
+[ext_resource path="res://gamestart/startback/Frame37.png" type="Texture" id=39]
+[ext_resource path="res://gamestart/startback/Frame38.png" type="Texture" id=40]
+[ext_resource path="res://gamestart/startback/Frame39.png" type="Texture" id=41]
+[ext_resource path="res://gamestart/startback/Frame40.png" type="Texture" id=42]
+[ext_resource path="res://gamestart/startback/Frame41.png" type="Texture" id=43]
+[ext_resource path="res://gamestart/startback/Frame42.png" type="Texture" id=44]
+[ext_resource path="res://gamestart/startback/Frame43.png" type="Texture" id=45]
+[ext_resource path="res://gamestart/startback/Frame44.png" type="Texture" id=46]
+[ext_resource path="res://gamestart/startback/Frame45.png" type="Texture" id=47]
+[ext_resource path="res://gamestart/startback/Frame46.png" type="Texture" id=48]
+[ext_resource path="res://gamestart/startback/Frame47.png" type="Texture" id=49]
+[ext_resource path="res://gamestart/buttonsAndRes/Main_Menu/Start_BTN.png" type="Texture" id=50]
+[ext_resource path="res://gamestart/vs.png" type="Texture" id=51]
+[ext_resource path="res://gamestart/bouncywalls.png" type="Texture" id=52]
+[ext_resource path="res://gamestart/ninja.png" type="Texture" id=53]
+[ext_resource path="res://gamestart/buttonsAndRes/Main_Menu/Info_BTN.png" type="Texture" id=54]
+[ext_resource path="res://gamestart/buttonsAndRes/Main_Menu/FAQ_BTN.png" type="Texture" id=55]
+[ext_resource path="res://Creditbox.tscn" type="PackedScene" id=56]
+[ext_resource path="res://gamestart/buttonsAndRes/Main_Menu/Exit_BTN.png" type="Texture" id=57]
+[ext_resource path="res://Music.tscn" type="PackedScene" id=58]
+[ext_resource path="res://tutorialbox.tscn" type="PackedScene" id=59]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="GameStart" type="Node"]
+script = ExtResource( 1 )
+
+[node name="back" type="AnimatedSprite" parent="."]
+position = Vector2( 513.015, 298.872 )
+scale = Vector2( 0.943022, 1.04986 )
+frames = SubResource( 1 )
+frame = 3
+speed_scale = 3.0
+playing = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 406.752
+margin_top = 477.233
+margin_right = 828.752
+margin_bottom = 604.233
+rect_scale = Vector2( 0.606692, 0.621643 )
+
+[node name="Start_BTN" type="Sprite" parent="Button"]
+position = Vector2( 208.392, 68.6004 )
+scale = Vector2( 1.16175, 1.29175 )
+texture = ExtResource( 50 )
+
+[node name="vs" type="Sprite" parent="."]
+modulate = Color( 0, 9.88, 0, 1 )
+position = Vector2( 537.332, 300.057 )
+scale = Vector2( 1.06502, 1.28135 )
+texture = ExtResource( 51 )
+
+[node name="bouncywalls" type="Sprite" parent="."]
+modulate = Color( 20.23, 12.79, 1, 1 )
+position = Vector2( 259.152, 170.647 )
+scale = Vector2( 1.05798, 1.16256 )
+texture = ExtResource( 52 )
+
+[node name="ninja" type="Sprite" parent="."]
+modulate = Color( 100, 0, 0, 1 )
+position = Vector2( 783.886, 410.505 )
+scale = Vector2( 1.44818, 1.50541 )
+texture = ExtResource( 53 )
+
+[node name="credits" type="Button" parent="."]
+margin_left = 828.361
+margin_top = 490.355
+margin_right = 1050.36
+margin_bottom = 706.355
+rect_scale = Vector2( 0.273318, 0.286729 )
+
+[node name="Info_BTN" type="Sprite" parent="credits"]
+position = Vector2( 89.6084, 108.067 )
+scale = Vector2( 1.34411, 1.29157 )
+texture = ExtResource( 54 )
+
+[node name="tutorial" type="Button" parent="."]
+margin_left = 834.0
+margin_top = 69.0
+margin_right = 1104.0
+margin_bottom = 319.0
+rect_scale = Vector2( 0.273318, 0.286729 )
+
+[node name="FAQ_BTN" type="Sprite" parent="tutorial"]
+position = Vector2( 128.349, 116.412 )
+scale = Vector2( 1.40146, 1.34624 )
+texture = ExtResource( 55 )
+
+[node name="Creditbox" parent="." instance=ExtResource( 56 )]
+visible = false
+position = Vector2( 852.853, 521.341 )
+scale = Vector2( 0.183685, 0.185165 )
+
+[node name="exit" type="Button" parent="."]
+margin_left = 55.2764
+margin_top = 484.708
+margin_right = 233.276
+margin_bottom = 550.708
+
+[node name="Exit_BTN" type="Sprite" parent="exit"]
+position = Vector2( 84.5153, 32.9904 )
+scale = Vector2( 0.546961, 0.674419 )
+texture = ExtResource( 57 )
+
+[node name="Music" parent="." instance=ExtResource( 58 )]
+
+[node name="Creditbox2" parent="." instance=ExtResource( 59 )]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="credits" to="." method="_on_credits_pressed"]
+[connection signal="pressed" from="tutorial" to="." method="_on_tutorial_pressed"]
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]

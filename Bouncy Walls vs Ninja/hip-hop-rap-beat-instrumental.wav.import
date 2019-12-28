@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hip-hop-rap-beat-instrumental.wav-bdcfca48084a6887d46d335bb07ac283.sample"
+
+[deps]
+
+source_file="res://hip-hop-rap-beat-instrumental.wav"
+dest_files=[ "res://.import/hip-hop-rap-beat-instrumental.wav-bdcfca48084a6887d46d335bb07ac283.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

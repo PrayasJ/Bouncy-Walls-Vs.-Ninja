@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://gamestart/buttonsAndRes/Level_Menu/Window.png" type="Texture" id=1]
+[ext_resource path="res://Creditbox.gd" type="Script" id=2]
+[ext_resource path="res://gamestart/buttonsAndRes/Level_Menu/Close_BTN.png" type="Texture" id=3]
+[ext_resource path="res://gamestart/credits.png" type="Texture" id=4]
+[ext_resource path="res://gamestart/prayas.png" type="Texture" id=5]
+[ext_resource path="res://gamestart/ujjawal.png" type="Texture" id=6]
+[ext_resource path="res://gamestart/vaibhav.png" type="Texture" id=7]
+[ext_resource path="res://gamestart/ansh.png" type="Texture" id=8]
+
+[node name="Creditbox" type="Sprite"]
+position = Vector2( 0.945374, 0 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="exit" type="Button" parent="."]
+margin_left = 323.328
+margin_top = -506.205
+margin_right = 389.328
+margin_bottom = -436.205
+
+[node name="Close_BTN" type="Sprite" parent="exit"]
+position = Vector2( 35.8887, 41.6194 )
+scale = Vector2( 0.456593, 0.428726 )
+texture = ExtResource( 3 )
+
+[node name="credits" type="Sprite" parent="."]
+modulate = Color( 100, 0.02, 0.02, 1 )
+position = Vector2( -30.6288, -466.631 )
+scale = Vector2( 1.6061, 1.29861 )
+texture = ExtResource( 4 )
+
+[node name="prayas" type="Sprite" parent="."]
+modulate = Color( 0, 9.88, 100, 1 )
+position = Vector2( -2.26776, -222.726 )
+scale = Vector2( 2.78333, 2.6 )
+texture = ExtResource( 5 )
+
+[node name="ujjawal" type="Sprite" parent="."]
+modulate = Color( 1, 64.53, 0, 1 )
+position = Vector2( 3.40448, 6.05421 )
+scale = Vector2( 1.57018, 1.75 )
+texture = ExtResource( 6 )
+
+[node name="vaibhav" type="Sprite" parent="."]
+modulate = Color( 100, 18.6, 0, 1 )
+position = Vector2( 7.18596, 188.511 )
+scale = Vector2( 1.95012, 2.14096 )
+texture = ExtResource( 7 )
+
+[node name="ansh" type="Sprite" parent="."]
+modulate = Color( 0.796078, 6.98039, 47.0902, 1 )
+position = Vector2( -10.7761, 390.82 )
+scale = Vector2( 1.98892, 2.15545 )
+texture = ExtResource( 8 )
+[connection signal="pressed" from="exit" to="." method="_on_exit_pressed"]

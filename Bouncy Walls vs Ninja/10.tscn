@@ -1,0 +1,103 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://Level1.gd" type="Script" id=1]
+[ext_resource path="res://parallax.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Music.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Tile (1).tscn" type="PackedScene" id=4]
+[ext_resource path="res://Tile (2).tscn" type="PackedScene" id=5]
+[ext_resource path="res://Tile (3).tscn" type="PackedScene" id=6]
+[ext_resource path="res://Tile (4).tscn" type="PackedScene" id=7]
+[ext_resource path="res://Tile (7).tscn" type="PackedScene" id=8]
+[ext_resource path="res://Tile (8).tscn" type="PackedScene" id=9]
+[ext_resource path="res://Tile (12).tscn" type="PackedScene" id=10]
+[ext_resource path="res://Tile (12).gd" type="Script" id=11]
+[ext_resource path="res://Tile (13).tscn" type="PackedScene" id=12]
+[ext_resource path="res://Tile (13).gd" type="Script" id=13]
+[ext_resource path="res://Tile (14).tscn" type="PackedScene" id=14]
+[ext_resource path="res://Tile (15).tscn" type="PackedScene" id=15]
+[ext_resource path="res://kunai_icon.tscn" type="PackedScene" id=16]
+[ext_resource path="res://Arrow.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Ninja.tscn" type="PackedScene" id=18]
+[ext_resource path="res://Kunai.tscn" type="PackedScene" id=19]
+[ext_resource path="res://walls.tscn" type="PackedScene" id=20]
+[ext_resource path="res://touchpoint.tscn" type="PackedScene" id=21]
+[ext_resource path="res://Goal.tscn" type="PackedScene" id=22]
+
+[node name="10" type="Node"]
+script = ExtResource( 1 )
+
+[node name="parallax" parent="." instance=ExtResource( 2 )]
+
+[node name="Music" parent="." instance=ExtResource( 3 )]
+
+[node name="Scene" type="Node" parent="."]
+editor/display_folded = true
+
+[node name="Tile (1)" parent="Scene" instance=ExtResource( 4 )]
+position = Vector2( 33.8362, 503.292 )
+
+[node name="Tile (2)" parent="Scene" instance=ExtResource( 5 )]
+position = Vector2( -260.686, 106.518 )
+
+[node name="Tile (3)" parent="Scene" instance=ExtResource( 6 )]
+position = Vector2( 98.2811, 503.373 )
+
+[node name="Tile (4)" parent="Scene" instance=ExtResource( 7 )]
+position = Vector2( -316.386, 378.263 )
+
+[node name="Tile (7)" parent="Scene" instance=ExtResource( 8 )]
+position = Vector2( -352.396, 253.944 )
+
+[node name="Tile (8)" parent="Scene" instance=ExtResource( 9 )]
+position = Vector2( -274.976, 271.828 )
+
+[node name="Tile (12)" parent="Scene" instance=ExtResource( 10 )]
+position = Vector2( 655.561, 302.492 )
+rotation = -0.55676
+scale = Vector2( 0.66432, 0.25 )
+script = ExtResource( 11 )
+
+[node name="Tile (13)" parent="Scene" instance=ExtResource( 12 )]
+position = Vector2( 311.923, 370.146 )
+rotation = 3.31613
+scale = Vector2( 0.733374, 0.25 )
+script = ExtResource( 13 )
+
+[node name="Tile (14)" parent="Scene" instance=ExtResource( 14 )]
+position = Vector2( 296.129, 274.223 )
+rotation = -3.8118
+scale = Vector2( 0.970009, 0.25 )
+
+[node name="Tile (15)" parent="Scene" instance=ExtResource( 15 )]
+position = Vector2( -52.0216, 257.271 )
+rotation = -0.785398
+
+[node name="Tile (15)2" parent="Scene" instance=ExtResource( 15 )]
+position = Vector2( 350.039, 105.227 )
+scale = Vector2( 1.56535, 0.25 )
+
+[node name="Tile (16)" parent="Scene" instance=ExtResource( 15 )]
+position = Vector2( 429.082, 244.885 )
+rotation = -0.0244346
+scale = Vector2( 0.339925, 0.25 )
+
+[node name="Kunai2" parent="." instance=ExtResource( 16 )]
+
+[node name="Arrow" parent="." instance=ExtResource( 17 )]
+
+[node name="Ninja" parent="." instance=ExtResource( 18 )]
+position = Vector2( 56.8636, 416.138 )
+
+[node name="Kunai" parent="." instance=ExtResource( 19 )]
+mass = 1.0
+
+[node name="walls" parent="." instance=ExtResource( 20 )]
+
+[node name="touchpoint" parent="." instance=ExtResource( 21 )]
+frame = 26
+
+[node name="touchpoint2" parent="." instance=ExtResource( 21 )]
+frame = 20
+
+[node name="Goal" parent="." instance=ExtResource( 22 )]
+position = Vector2( 397.942, 311.209 )
